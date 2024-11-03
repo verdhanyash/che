@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Earth Container */
+.earth {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly white for transparency */
+    position: relative; /* Allows for absolute positioning of children */
+    z-index: 10; /* Stays above other content */
+}
+
+header img {
+    height: 50px;
+}
+
+.navbarlist {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #00796b; /* Teal color for links */
+    font-weight: bold;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Donate Button Styles */
+.donate {
+    background-color: #00796b; /* Teal */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.latest-articles {
+    margin-top: 30px;
+}
+
+.latest-articles article {
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Button Styles */
+button {
+    background-color: #00796b; /* Teal */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Solid white background */
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #00796b; /* Teal color for social media icons */
+    font-size: 24px; /* Size of the icons */
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #004d40; /* Darker teal on hover */
+}
+
+footer p {
+    color: #333; /* Dark gray for footer text */
+}

@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e1ede5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+a {
+  color: white;
+text-decoration:none;
+}
+.earth {
+  background-image: url("./images/main.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  align-items: center;
+}
+.navbarlist {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 1.4rem;
+}
+.hero-con {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.hero-con h1 {
+  font-size: 5rem;
+  margin: 1.5rem;
+}
+
+.hero-con p {
+  font-weight: 100;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.env-probs {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  bottom: -20rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.env-probs img {
+  border-radius: 2rem;
+}
+.box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem;
+}
+
+.img-con {
+  padding: 2rem 0 2rem 2rem;
+}
+.img-con h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2px;
+}
+.img-con p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.discover {
+  margin-top: 25rem;
+  display: flex;
+  justify-content: center;
+}
+.earth-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.how h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+.discover button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+
+  color: black;
+}
+
+.box2 {
+  height:45rem;
+  width: 40rem;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.box-con {
+  padding: 20px;
+}
+
+.box-con span {
+  font-size: 5rem;
+  color:aliceblue;
+}
+
+.box-con h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}
+
+.box-con p {
+  color: white;
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img {
+  height: 20rem;
+  width: 30rem;
+}
+.projects-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.project-con {
+  width: 30rem;
+}
+
+.box3 {
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(188, 186, 186);
+  padding: 2rem 1rem;
+}
+
+.project-h2 {
+  text-align: center;
+  margin: 4rem;
+  font-size: 3rem;
+}
+
+.box3 h2 {
+  font-size: 2rem;
+  margin: 2rem 0 0 0;
+}
+
+.box3 p:first-of-type {
+  font-size: 1.2rem;
+  color: green;
+  margin-bottom: 2rem;
+}
+
+.box3 p:last-of-type {
+  font-size: 1.5rem;
+}
+
+.box3 button {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  padding: 0.5rem 2rem;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.projects {
+  margin-bottom: 10rem;
+}
+
+footer {
+  background-color: #343a43;
+}
+.footer-con {
+  padding: 10rem 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.green-earth,
+.more,
+.social {
+  width: 25%;
+}
+
+.green-logo-img {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+.green-text {
+  margin: 1.5rem 0;
+}
+.green-logos i {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+}
+.foot-head2 {
+  font-size: 2.5rem;
+}
+
+.more-con {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.more-con-con {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.more-con h3 {
+  font-size: 1.7rem;
+}
+.full-hr {
+  width: 12rem;
+  margin-top: 0.5rem;
+}
+.half-hr {
+  width: 6rem;
+  margin-top: 0.2rem;
+  margin-bottom: 2.5rem;
+}
+.copyright {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 5rem;
+  background-color: #27292c;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .env-probs {
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem 25rem;
+    position: static;
+    transform: translate(0%);
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+  }
+  .env-probs img {
+    width: 25rem;
+  }
+  .discover {
+    margin: 0;
+  }
+  .hero-con {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .env-probs {
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: 50rem 50rem;
+    position: static;
+    transform: translate(0%);
+  }
+  .env-probs img {
+    width: 30rem;
+  }
+  .discover {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .boxes {
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+  }
+  .projects-box {
+    flex-direction: column;
+    margin: auto;
+  }
+  .footer-con {
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+  .green-earth,
+  .more,
+  .social {
+    width: 100%;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .env-probs {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 35rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .boxes {
+    display: block;
+    margin: auto;
+  }
+  .box2 {
+    margin: auto;
+  }
+  nav {
+    display: none;
+  }
+  .hero-con {
+    text-align: center;
+  }
+  .green-logo-con h2 {
+    letter-spacing: normal;
+  }
+}
